@@ -1,9 +1,22 @@
-# <p align="center">TGCA-PVT: Topic-Guided Context-Aware Pyramid Vision Transformer for Sticker Emotion Recognition </p>
+![image](https://github.com/user-attachments/assets/563f42c1-648f-4000-9ad7-ce944a922f27)![image](https://github.com/user-attachments/assets/06db4900-b7c3-4be9-9026-57449676faaf)# <p align="center">TGCA-PVT: Topic-Guided Context-Aware Pyramid Vision Transformer for Sticker Emotion Recognition </p>
 
 This is the official repository of our ACM Multimedia 2024 Work in Pytorch. Our conference paper is now released at https://dl.acm.org/doi/abs/10.1145/3664647.3680781. We also provide a supplementary pdf of additional experimental results in supplement.pdf here.
 
 ## Abstract
 Online chatting has become an essential aspect of our daily interactions, with stickers emerging as a prevalent tool for conveying emotions more vividly than plain text. While conventional image emotion recognition focuses on global features, sticker emotion recognition necessitates incorporating both global and local features, along with additional modalities like text. To address this, we introduce a topic ID-guided transformer method to facilitate a more nuanced analysis of the stickers. Considering that each sticker will have a topic, and stickers with the same topic will have the same object, we introduce a topic ID and regard the stickers with the same topic ID as topic context. Our approach encompasses a novel topic-guided context-aware module and a topic-guided attention mechanism, enabling the extraction of comprehensive topic context features from stickers sharing the same topic ID, significantly enhancing emotion recognition accuracy. Moreover, we integrate a frequency linear attention module to leverage frequency domain information to better capture the object information of the stickers and a locally enhanced re-attention mechanism for improved local feature extraction. Extensive experiments and ablation studies on the large-scale sticker emotion dataset SER30k validate the efficacy of our method. Experimental results show that our proposed method obtains the best accuracy on both single-modal and multi-modal sticker emotion recognition.
+
+## Innovations:
+**Frequency linear attention module (FLA-Module)** with frequency MLP and frequency attention for object information enhancement.
+
+**Local enhanced re-attention module (LERA-Module)** for better capture the relationship between the local and global features.
+
+**Topic-guided context-aware module (TGCA -module)** for context feature extraction for the same topic.
+
+**Topic-guided attention (TG-Attention)** for better capture features from stickers with the same topic ID.
+
+
+
+
 
 ## SER30K dataset
 
