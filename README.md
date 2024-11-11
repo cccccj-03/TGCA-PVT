@@ -55,6 +55,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=6666 \
 
 ## Reference
 Please cite our paper as below:
+```shell
 @inproceedings{chen2024tgca,
   title={TGCA-PVT: Topic-Guided Context-Aware Pyramid Vision Transformer for Sticker Emotion Recognition},
   author={Chen, Jian and Wang, Wei and Hu, Yuzhu and Chen, Junxin and Liu, Han and Hu, Xiping},
@@ -62,3 +63,4 @@ Please cite our paper as below:
   pages={9709--9718},
   year={2024}
 }
+```
