@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/563f42c1-648f-4000-9ad7-ce944a922f27)![image](https://github.com/user-attachments/assets/06db4900-b7c3-4be9-9026-57449676faaf)# <p align="center">TGCA-PVT: Topic-Guided Context-Aware Pyramid Vision Transformer for Sticker Emotion Recognition </p>
+# <p align="center">TGCA-PVT: Topic-Guided Context-Aware Pyramid Vision Transformer for Sticker Emotion Recognition </p>
 
 This is the official repository of our ACM Multimedia 2024 Work in Pytorch. Our conference paper is now released at https://dl.acm.org/doi/abs/10.1145/3664647.3680781. We also provide a supplementary pdf of additional experimental results in supplement.pdf here.
 
@@ -15,8 +15,7 @@ Online chatting has become an essential aspect of our daily interactions, with s
 **Topic-guided attention (TG-Attention)** for better capture features from stickers with the same topic ID.
 
 
-
-
+![image](https://github.com/user-attachments/assets/563f42c1-648f-4000-9ad7-ce944a922f27)
 
 ## SER30K dataset
 
