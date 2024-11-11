@@ -15,7 +15,7 @@ Online chatting has become an essential aspect of our daily interactions, with s
 **Topic-guided attention (TG-Attention)** for better capture features from stickers with the same topic ID.
 
 
-![image](https://github.com/user-attachments/assets/563f42c1-648f-4000-9ad7-ce944a922f27)
+![image](TGCA-PVT.png)
 
 ## SER30K dataset
 
